@@ -1,0 +1,7 @@
+se agrego:
+
+Keywords : Index , tour , noticias , discografia , videos 
+Description : Index , tour , noticias , discografia , videos
+
+Se agrego secciones sass
+_media ; _discografia ; _index ; _tour ; _noticias ; _variables ;

@@ -1,0 +1,44 @@
+.section_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 30px auto;
+    background-color: rgba(119, 119, 119, 0.6);
+    max-width: 850px;
+    color: white;
+    box-sizing: content-box;
+    padding: 5px;
+
+
+
+    article.article_descripcion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 425px;
+
+
+    }
+
+    picture.section_picture {
+        height: auto;
+        width: 425px;
+        display: flex;
+        
+        
+
+
+
+        img {
+            max-width: 100%;
+            height: 350px;
+            display: flex;
+
+        }
+    }
+
+    p.text_bio {
+        margin: 0%;
+    }
+}

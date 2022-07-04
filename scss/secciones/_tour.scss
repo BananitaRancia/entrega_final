@@ -1,0 +1,47 @@
+main.main_850 {
+    max-width: 850px;
+
+    table {
+        background-color: rgba(119, 119, 119, 0.6);
+        margin: 0 auto;
+        box-sizing: content-box;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+
+
+        tr {
+            border: solid rgba(0, 0, 0, 0.5);
+
+            th {
+                width: 300px;
+                padding: 0.5rem 0.5rem;
+                text-align: left;
+
+
+            }
+        }
+
+        tr {
+            display: flex;
+            margin: 3px;
+
+            td {
+                width: 300px;
+                height: 50px;
+                align-items: center;
+                padding: 0.5rem 0.5rem;
+                text-align: left;
+                display: flex;
+
+                input {
+                    width: auto;
+                    height: 30px;
+                }
+
+            }
+        }
+
+    }
+}
